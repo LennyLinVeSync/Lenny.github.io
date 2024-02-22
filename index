@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google Trends</title>
+</head>
+<body>
+    <h1>美国空气净化器的搜索趋势</h1>
+    <div id="trends-widget">
+        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3620_RC01/embed_loader.js"></script>
+        <script type="text/javascript">
+            trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"air purifier","geo":"US","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=air%20purifier&hl=zh-CN&date=today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"});
+        </script>
+    </div>
+</body>
+</html>
